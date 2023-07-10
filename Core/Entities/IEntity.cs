@@ -8,5 +8,6 @@ namespace Core.Entities
 {
     public interface IEntity
     {
+        DateTime? CreatedDate { get; set; } 
     }
 }

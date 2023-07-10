@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Core.Entities.Concrete
 {
-    public class Log:IEntity
+    public class Log: IEntity
     {
         public int LogId { get; set; }
         public string Detail { get; set; }
         public DateTime Date { get; set; }
-        public string Audit { get; set; } 
+        public string Audit { get; set; }
+        public DateTime? CreatedDate { get; set; }
     }
 }
